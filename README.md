@@ -39,7 +39,7 @@ git fetch
 ## Get Started
 
 > ***Warning***
-> Mini moulinette is not 100% accurate, the tests may not cover every edge cases like moulinette. Use with caution.
+> Mini reloaded is not 100% accurate, the tests may not cover every edge cases like moulinette. Use with caution.
 
 1. Go to your root `~` directory.
 
