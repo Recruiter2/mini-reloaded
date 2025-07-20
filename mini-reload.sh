@@ -1,12 +1,12 @@
 #!/bin/bash
 
-source ~/mini-moulinette/mini-moul/config.sh
+source ~/mini-reloaded/mini-reload/config.sh
 # assignment name
 assignment=NULL
 
 function handle_sigint {
   echo "${RED}Script aborted by user. Cleaning up..."
-  rm -R ../mini-moul
+  rm -R ../mini-reload
   echo ""
   echo "${GREEN}Cleaning process done.${DEFAULT}"
   exit 1
@@ -19,12 +19,12 @@ detect_assignment() {
 }
 
 if detect_assignment; then
-  cp -R ~/mini-moulinette/mini-moul mini-moul
+  cp -R ~/mini-reloaded/mini-reload mini-reload
   run_norminette
   trap handle_sigint SIGINT
-  cd mini-moul
+  cd mini-reload
   ./test.sh "$assignment"
-  rm -R ../mini-moul
+  rm -R ../mini-reload
 else
   printf "${RED}Current directory does not match expected pattern (C[00~13]).${DEFAULT}\n"
   printf "${RED}Please navigate to an appropriate directory to run tests.${DEFAULT}\n"

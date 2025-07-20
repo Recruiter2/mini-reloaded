@@ -1,8 +1,8 @@
-# Mini-moulinette
+# Mini-reloaded
 
-![mini-moulinette](mini-moulinette.jpg)
+![mini-reloaded](mini-reloaded.jpg)
 
-Mini-moulinette is a test runner for 42 assignments, providing automated tests for whole assignment with one command. The goal is to make thorough checking before submitting the assignments, with ease.
+Mini-reloaded is a test runner for 42 assignments, providing automated tests for whole assignment with one command. The goal is to make thorough checking before submitting the assignments, with ease.
 
 
 ## Introduction
@@ -21,16 +21,20 @@ This is now day 11 of piscine. I have wasted so many hours getting evaluated, do
 
 # Updating
 
-Mini moulinette is updated daily, to update:
+Mini reloaded is updated daily (supposedely), to update:
 
 ```bash
-cd ~/mini-moulinette
+cd ~/mini-reloaded
 ```
 
 ```bash
 git pull
 ```
+(recruiter would also try the command below before)
 
+```bash
+git fetch
+```
 
 ## Get Started
 
@@ -47,7 +51,7 @@ cd ~
 2. Clone the git there.
 
 ```bash
-git clone https://github.com/khairulhaaziq/mini-moulinette.git
+git clone https://github.com/Recruiter2/mini-reloaded.git
 ```
 
 
@@ -56,13 +60,13 @@ git clone https://github.com/khairulhaaziq/mini-moulinette.git
 - zsh:
 
 ```zsh
-echo "alias mini='~/mini-moulinette/mini-moul.sh'" >> ~/.zshrc && source ~/.zshrc
+echo "alias mini='~/mini-reloaded/mini-reload.sh'" >> ~/.zshrc && source ~/.zshrc
 ```
 
 - bash:
 
 ```bash
-echo "alias mini='~/mini-moulinette/mini-moul.sh'" >> ~/.bashrc && source ~/.bashrc
+echo "alias mini='~/mini-reloaded/mini-reload.sh'" >> ~/.bashrc && source ~/.bashrc
 ```
 
 
@@ -102,7 +106,7 @@ The error/success messages should be explicit enough. However sometimes you will
 - You need to find the test cases, go here:
 
 ```bash
-cd ~/mini-moulinette/mini-moul/tests
+cd ~/mini-reloaded/mini-reload/tests
 ```
 
 The current directory contains all the test cases. Every test is in the file that is the same name as the function/program it is testing, e.g. C05/ex00/ft_iterative_factorial.c will contain test for C05 > ex00 > ft_iterative_factorial.c.
@@ -167,19 +171,20 @@ See the above, you can add more tests here. You need to manage your customizatio
 
 ## Contributing
 
-We welcome contributions to mini-moulinette! Here are a few ways you can help out:
+We welcome contributions to mini-reloaded! Here are a few ways you can help out:
 
 - Testing: We rely on community feedback to ensure our tests are comprehensive and accurate. If you notice an error in one of our tests or have an idea for a new test case, please let us know! You can contact us via email at [email address] or on Discord at [Discord username]. We would greatly appreciate any feedback or suggestions you have.
 - Code: If you're interested in contributing to the codebase itself, we'd be happy to review any pull requests you submit. We have a few guidelines to ensure that our code is readable and maintainable, so please take a look at our contributing guidelines before you get started.
-- Features: Do you have an idea for a new feature that you think would be useful for mini-moulinette? We'd love to hear it! Please create an issue on our GitHub repository to start a discussion.
-- Feedback: If you've used mini-moulinette and have some feedback or suggestions for improvement, please let us know! Your input is valuable to us, and we're always looking for ways to make our test runner better.
+- Features: Do you have an idea for a new feature that you think would be useful for mini-reloaded? We'd love to hear it! Please create an issue on our GitHub repository to start a discussion.
+- Feedback: If you've used mini-reloaded and have some feedback or suggestions for improvement, please let us know! Your input is valuable to us, and we're always looking for ways to make our test runner better.
 
-When contributing to mini-moulinette, please be sure to follow our code of conduct and our guidelines for submitting contributions. Thank you for your interest in our project, and we look forward to working with you!
+When contributing to mini-reloaded, please be sure to follow our code of conduct and our guidelines for submitting contributions. Thank you for your interest in our project, and we look forward to working with you!
 
 
 ## Authors
 
 [Khairul Haaziq](https://github.com/khairulhaaziq)
+[Recruiter](https://github.com/Recruiter2)
 
 
 ## Contributors
@@ -189,4 +194,4 @@ When contributing to mini-moulinette, please be sure to follow our code of condu
 
 ## License
 
-MIT. Copyright 2023 [Khairul Haaziq](https://github.com/khairulhaaziq).
+MIT. Copyright 2025 [Khairul Haaziq](https://github.com/khairulhaaziq).
