@@ -116,7 +116,7 @@ print_header()
     printf "░      ░    ▒ ░   ░   ░ ░  ▒ ░\n"
     printf "       ░    ░           ░  ░  \n"
     printf "${DEFAULT}"
-    printf "${BLUE}Mini moulinette ${DEFAULT}version 0.1.21 27 Feb 2023.\n"
+    printf "${BLUE}Mini reloaded ${DEFAULT}version 0.1.22 20 Jul 2025.\n"
     space
 }
 
