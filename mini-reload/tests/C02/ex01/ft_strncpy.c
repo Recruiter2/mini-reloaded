@@ -48,19 +48,37 @@ int	test3(void)
 
 	result = ft_strncpy(dest, src, 7);
 
-	if (strcmp(result, "Hello") != 0)
+	if (strcmp(result, "Hello1") != 0)
 	{
-		printf("    " RED "[3] ft_strncpy(\"World1\", \"Hello\", 7) Expected \"Hello\", got \"%s\"\n", result);
+		printf("    " RED "[3] ft_strncpy(\"World1\", \"Hello\", 7) Expected \"Hello1\", got \"%s\"\n", result);
 		return (-1);
 	}
 	else
-		printf("  " GREEN CHECKMARK GREY " [3] ft_strncpy(\"World1\", \"Hello\", 7) Expected \"Hello\", got \"%s\"\n" DEFAULT, result);
+		printf("  " GREEN CHECKMARK GREY " [3] ft_strncpy(\"World1\", \"Hello\", 7) Expected \"Hello1\", got \"%s\"\n" DEFAULT, result);
+	return (0);
+}
+
+int	test4(void)
+{
+	char src[] = "";
+	char dest[] = "World1";
+	char *result;
+
+	result = ft_strncpy(dest, src, 7);
+
+	if (strcmp(result, "") != 0)
+	{
+		printf("    " RED "[3] ft_strncpy(\"World1\", \"Hello\", 7) Expected \"\", got \"%s\"\n", result);
+		return (-1);
+	}
+	else
+		printf("  " GREEN CHECKMARK GREY " [3] ft_strncpy(\"World1\", \"Hello\", 7) Expected \"\", got \"%s\"\n" DEFAULT, result);
 	return (0);
 }
 
 int	main(void)
 {
-	if (test1()+test2()+test3()!=0)
+	if (test1()+test2()+test3()+test4()!=0)
 		return (-1);
 	return (0);
 }

@@ -26,6 +26,10 @@ int	main(void)
 		{
 			.str = "-_134556ABCDEFGaH67",
 			.expected = 0
+		},
+		{
+			.str = "",
+			.expected = 1
 		}
 	};
 	int count = sizeof(tests) / sizeof(tests[0]);

@@ -29,9 +29,18 @@ int main(void)
             {.desc = "ft_putnbr(42)",
              .n = 42,
              .expected = "42"},
-            {.desc = "ft_putnbr(-42)",
-             .n = -42,
-             .expected = "-42"},
+            {.desc = "ft_putnbr(-0)",
+             .n = -0,
+             .expected = "0"},
+            {.desc = "ft_putnbr(-0123456789)",
+             .n = -0123456789,
+             .expected = "-0123456789"}/*,
+            {.desc = "ft_putnbr(-42424242424242424242)",
+             .n = -42424242424242424242,
+             .expected = "-42424242424242424242"},
+            {.desc = "ft_putnbr(42424242424242424242)",
+             .n = 42424242424242424242,
+             .expected = "42424242424242424242"}*/
             // Add more test cases here
         };
         int count = sizeof(tests) / sizeof(tests[0]);

@@ -30,6 +30,18 @@ int	main(void)
 			.str = "-_134556efSghij67",
 			.msg = "-_134556efSghij67",
 			.expected = 1
+		},
+		{
+			.str = "",
+			.expected = 1
+		},
+		{
+			.str = '\0',
+			.expected = 1
+		},
+		{
+			.str = NULL,
+			.expected = 0
 		}
 	};
 	int count = sizeof(tests) / sizeof(tests[0]);
