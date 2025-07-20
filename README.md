@@ -183,7 +183,7 @@ When contributing to mini-reloaded, please be sure to follow our code of conduct
 
 ## Authors
 
-[Khairul Haaziq](https://github.com/khairulhaaziq)
+[Khairul Haaziq](https://github.com/khairulhaaziq) <br />
 [Recruiter](https://github.com/Recruiter2)
 
 
