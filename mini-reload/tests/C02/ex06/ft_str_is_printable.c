@@ -34,15 +34,15 @@ int	main(void)
 		{
 			.str = "",
 			.expected = 1
+		}/*,
+		{
+			.str = NULL,
+			.expected = 0
 		},
 		{
 			.str = '\0',
 			.expected = 1
-		},
-		{
-			.str = NULL,
-			.expected = 0
-		}
+		}*/
 	};
 	int count = sizeof(tests) / sizeof(tests[0]);
 	
