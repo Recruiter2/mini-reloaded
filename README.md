@@ -30,7 +30,7 @@ cd ~/mini-reloaded
 ```bash
 git pull
 ```
-(recruiter would also try the command below before)
+(I, recruiter would also try the command below before)
 
 ```bash
 git fetch
